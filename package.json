@@ -1,0 +1,33 @@
+{
+  "name": "postcss-epub-clean",
+  "version": "2.2.5",
+  "description": "PostCSS plugin to prefix ePub3 properties and remove non-epub properties and values",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugins",
+    "epub",
+    "epub3"
+  ],
+  "author": "Ryc O'Chet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rycochet/postcss-epub-clean.git"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "devDependencies": {
+    "postcss": "^2.2.5",
+    "test": "^0.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  }
+}
